@@ -63,7 +63,7 @@ span{
 
 .zeinuki{
 	width: 400px;
-	margin:0 auto;
+	margin:0 auto 50px;
 	padding-left: 80px;
 }
 
@@ -73,6 +73,22 @@ span{
 
 .toi-title{
 	background-color: #4169e1;
+}
+
+.roripo-hyo,.domain-hyo{
+	max-width: 400px;
+	min-width: 50%;
+	margin:30px auto;
+	text-align: center;
+}
+
+.roripo-hyo img,.domain-hyo img{
+	max-width: 100%;
+	height: auto;
+}
+
+.roripo-hyo p,.domain-hyo p{
+	margin:0;
 }
 
 .toiawase{
@@ -86,4 +102,19 @@ span{
 
 .toiawase p{
 	margin:5px;
+}
+
+
+
+/* スマートフォンサイズ */
+
+@media (max-width: 780px){
+
+	table{
+		width: 100%;
+	}
+
+	.toiawase{
+		width: 90%;
+	}
 }
